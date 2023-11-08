@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
+        stage('Checkout1') {
             steps {
                 // This step checks out the source code from your version control system (e.g., Git)
                 // Replace the repository URL with your own
-                    sh 'echo "Checkout SCM"'
+                    sh 'echo "Test Checkout"'
             }
         }
 
