@@ -7,7 +7,7 @@ pipeline {
                 // This step checks out the source code from your version control system (e.g., Git)
                 // Replace the repository URL with your own
                 script {
-                    checkout scm
+                    sh 'echo "Checkout SCM"'
                 }
             }
         }
